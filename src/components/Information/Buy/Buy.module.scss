@@ -1,0 +1,166 @@
+.buy {
+  padding: 32px;
+
+  border-radius: 20px;
+  background: #FBE385;
+}
+
+.title {
+  max-width: 340px;
+
+  font-family: $font-inter;
+  font-weight: 600;
+
+  font-size: 40px;
+  line-height: 1.2em;
+
+  color: $color-black;
+}
+
+.text {
+  margin-top: 8px;
+
+  font-family: $font-inter;
+  font-weight: 500;
+
+  font-size: 16px;
+  line-height: 1.5em;
+
+  color: $color-black;
+}
+
+.place {
+  margin-top: 8px;
+
+  font-family: $font-inter;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5em;
+
+  display: flex;
+  align-items: center;
+  gap: 4px;
+
+  color: $color-black;
+}
+
+.price {
+  margin-top: 32px;
+
+  display: flex;
+  align-items: center;
+  gap: 12px;
+
+  span {
+    font-family: $font-inter;
+    font-weight: 800;
+
+    font-size: 24px;
+    line-height: 1.2em;
+
+    color: #EB5757;
+  }
+
+  del {
+    font-family: $font-inter;
+    font-weight: 400;
+
+    font-size: 17px;
+    line-height: 1.6em;
+
+    color: $color-grey;
+  }
+}
+
+.sizes {
+  margin-top: 32px;
+
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.size {
+  padding: 14px;
+
+  width: 52px;
+  height: 52px;
+
+  font-family: $font-inter;
+  font-weight: 500;
+
+  font-size: 17px;
+  line-height: 1.5em;
+
+  text-align: center;
+
+  border-radius: 12px;
+  color: $color-black;
+  background: $color-white;
+
+  cursor: pointer;
+
+  input {
+    display: none;
+  }
+}
+
+.buttons {
+  margin-top: 32px;
+
+  width: 100%;
+
+  display: flex;
+  gap: 12px;
+}
+
+.button {
+  padding: 14px;
+
+  font-family: $font-inter;
+  font-weight: 500;
+  font-size: 17px;
+  line-height: 1.5em;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  border: 0;
+  border-radius: 12px;
+  color: $color-white;
+  background: #1D2022;
+
+  cursor: pointer;
+
+  &:nth-child(1) {
+    flex: 1 1 100%;
+  }
+
+  svg {
+    fill: $color-white;
+    stroke: none;
+  }
+}
+
+@media (max-width: $media-tablet) {
+  .buy {
+    padding: 20px;
+  }
+
+  .title {
+    font-size: 28px;
+  }
+
+  .price {
+    margin-top: 20px;
+  }
+
+  .sizes {
+    margin-top: 20px;
+  }
+
+  .buttons {
+    margin-top: 20px;
+  }
+}

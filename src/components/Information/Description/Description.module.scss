@@ -1,0 +1,49 @@
+.description {
+  padding: 32px;
+
+  grid-row-start: 1;
+  grid-row-end: 3;
+
+  border-radius: 20px;
+  background: #F6F6F9;
+}
+
+.title {
+  font-family: $font-inter;
+  font-weight: 600;
+
+  font-size: 24px;
+  line-height: 1.2em;
+
+  color: $color-black;
+}
+
+.text {
+  margin-top: 12px;
+
+  max-width: 720px;
+
+  font-family: $font-inter;
+  font-weight: 400;
+
+  font-size: 16px;
+  line-height: 1.5em;
+
+  color: $color-black;
+}
+
+@media (max-width: $media-tablet) {
+  .description {
+    padding: 20px;
+
+    grid-row-start: 2;
+  }
+
+  .title {
+    font-size: 20px;
+  }
+
+  .text {
+    font-size: 14px;
+  }
+}

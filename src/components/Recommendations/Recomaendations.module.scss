@@ -1,0 +1,45 @@
+.recommendations {
+	margin-top: 50px;
+}
+
+.inner {
+	display: flex;
+	flex-direction: column;
+	gap: 30px;
+}
+
+.title {
+	margin-left: 20px;
+
+	font-family: $font-inter;
+	font-weight: 900;
+
+	font-size: 28px;
+	line-height: 1em;
+
+	color: $color-black;
+}
+
+.slider {
+	margin-top: 26px;
+}
+
+@media (max-width: $media-tablet) {
+	.recommendations {
+		margin-top: 40px;
+	}
+
+	.inner {
+		gap: 40px;
+	}
+
+	.title {
+		margin-left: 0;
+
+		font-size: 20px;
+	}
+
+	.slider {
+		margin-top: 20px;
+	}
+}

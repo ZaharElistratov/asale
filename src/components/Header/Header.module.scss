@@ -1,0 +1,124 @@
+.header {
+
+}
+
+.top {
+	padding: 24px 0;
+
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+
+	position: relative;
+}
+
+.gender {
+	display: flex;
+	align-items: center;
+	gap: 32px;
+}
+
+.link {
+	font-family: $font-inter;
+	font-weight: 600;
+
+	font-size: 16px;
+	line-height: 1.5em;
+
+	color: #1D2022;
+}
+
+.logo {
+	margin: 0 auto;
+
+	position: absolute;
+	left: 0;
+	right: 0;
+
+	width: 140px;
+}
+
+.buttons {
+	display: flex;
+	gap: 10px;
+}
+
+.button {
+	padding: 0;
+
+	border: 0;
+	background: transparent;
+
+	cursor: pointer;
+}
+
+.burger {
+	padding: 0;
+
+	border: 0;
+	background: transparent;
+}
+
+.center {
+	margin-top: 8px;
+
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.back {
+	font-family: $font-inter;
+	font-weight: 600;
+	font-size: 20px;
+	line-height: 1em;
+
+	display: flex;
+	align-items: center;
+	gap: 12px;
+
+	color: $color-black;
+
+	svg {
+		fill: $color-black;
+	}
+}
+
+.bottom {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.nav {
+	display: flex;
+	align-items: center;
+	gap: 32px;
+}
+
+@media (max-width: $media-tablet) {
+	.top {
+		padding: 14px 0;
+	}
+
+	.logo {
+		margin: 0;
+
+		width: 106px;
+
+		position: static;
+
+		svg {
+			width: 106px;
+			height: 28px;
+		}
+	}
+
+	.bottom {
+		margin-top: 20px;
+	}
+
+	.search {
+		width: 100%;
+	}
+}

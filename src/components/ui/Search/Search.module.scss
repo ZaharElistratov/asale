@@ -1,0 +1,46 @@
+.search {
+  padding: 14px 12px;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 8px;
+
+  border-radius: 12px;
+  border: 1px solid #D3D5DC;
+  background: transparent;
+}
+
+.left {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.field {
+  font-family: $font-inter;
+  font-weight: 400;
+
+  font-size: 16px;
+  line-height: 1.5em;
+
+  height: 100%;
+
+  border: 0;
+  outline: 0;
+  color: #1D2022;
+  background: transparent;
+
+  &::placeholder {
+    color: $color-grey;
+  }
+}
+
+.button {
+  padding: 0;
+
+  border: 0;
+  background: transparent;
+
+  cursor: pointer;
+}

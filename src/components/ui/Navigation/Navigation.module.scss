@@ -1,0 +1,35 @@
+.navigation {
+	padding: 0;
+	margin: auto 0;
+
+	height: fit-content;
+	width: fit-content;
+
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	z-index: 1;
+
+	border-radius: 12px;
+	border: 1px solid $color-white;
+	background: $color-black;
+	box-shadow: 0 4px 20px 0 rgba($color-black, .4);
+
+	cursor: pointer;
+}
+
+.navigationPrev {
+	left: -20px;
+
+	svg {
+		fill: $color-white;
+	}
+}
+
+.navigationNext {
+	right: -20px;
+
+	svg {
+		fill: $color-white;
+	}
+}

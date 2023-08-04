@@ -1,0 +1,18 @@
+.categories {
+	margin-top: 100px;
+}
+
+.list {
+	display: flex;
+	gap: 12px;
+}
+
+@media (max-width: $media-tablet) {
+	.categories {
+		margin-top: 40px;
+	}
+
+	.list {
+		overflow-x: scroll;
+	}
+}
