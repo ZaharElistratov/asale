@@ -4,8 +4,10 @@ const path = require('path');
 const nextConfig = {
   reactStrictMode: true,
   images: {
-    path: 'asale/'
+    loader: 'akamai',
+    path: '',
   },
+  assetPrefix: './',
   sassOptions: {
     includePaths: [path.resolve(__dirname, 'sass',)],
     prependData: `@import "@/styles/variables.scss";`,
