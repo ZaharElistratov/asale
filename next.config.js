@@ -4,8 +4,7 @@ const path = require('path');
 const nextConfig = {
   reactStrictMode: true,
   images: {
-    loader: "akamai",
-    path: "/",
+    path: 'asale/'
   },
   sassOptions: {
     includePaths: [path.resolve(__dirname, 'sass',)],
