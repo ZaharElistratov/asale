@@ -3,6 +3,7 @@ const path = require('path');
 
 const nextConfig = {
   reactStrictMode: true,
+  basePath: 'asale/',
   sassOptions: {
     includePaths: [path.resolve(__dirname, 'sass',)],
     prependData: `@import "@/styles/variables.scss";`,
